@@ -12,10 +12,12 @@
 }
 
 :root {
+    /* --bg-color: linear-gradient(90deg, rgba(38, 132, 250, 1) 0%, rgba(0, 212, 255, 1) 100%); */
     --bg-color: #0e1014;
     --second-bg-color: #1a1d22;
     --text-color: #fff;
-    --main-color: #f2ff00 ;
+    --main-color: #42CBE3;
+    /* --main-color: #66D6F4; */
 }
 
 html {
@@ -467,6 +469,10 @@ span {
     .about-img {
         width: 70vw;
         margin-top: 4rem;
+    }
+
+    .about-img img {
+        width: 100%;
     }
 
     .services-h2 {
